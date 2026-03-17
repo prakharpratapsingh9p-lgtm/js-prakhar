@@ -46,7 +46,7 @@ let myPy= {
 console.log(myPy)
 
 
-*/
+
 
  const m = function(){
     console.log( "prakhar");
@@ -54,3 +54,42 @@ console.log(myPy)
  }
 const i1d =Symbol(123)
 console.log(typeof i1d);
+
+
+
+
+*/
+
+
+
+//HOW MEOMERY WORKS
+
+// Stacks(Primitive) , Heap(Non- Primitive)
+
+/*(let myYoutubeName = "Rex77r"
+let anotherName = myYoutubeName
+console.log(anotherName);
+
+
+
+
+ anotherName = "Name"
+console.log(myYoutubeName);
+
+console.log(anotherName);
+
+
+*/
+
+let userOne = {
+    email : "user@123",
+    upi : 121212,
+}
+
+let  userTwo = userOne
+
+userTwo.email ="prqakhar@121"
+
+console.log(userOne);
+console.log(userTwo);
+
